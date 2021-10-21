@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Python
+**/__pycache__/*
+*.pyc
+
+# Migrations directories
+**/migrations/*staticfiles/
+app/botreport/migrations/0001_initial.py
